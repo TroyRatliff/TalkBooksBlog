@@ -1,4 +1,5 @@
 ﻿using System;
+using TalkBooksBlog.Data;
 
 namespace TalkBooksBlog.Models.Comment
 {
