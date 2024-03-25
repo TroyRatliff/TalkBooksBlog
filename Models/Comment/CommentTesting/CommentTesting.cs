@@ -41,7 +41,7 @@ namespace TalkBooksBlog.Models.Comment.CommentTesting.cs
             commentManager.DeleteComment(retrievedComment);
 
             Console.WriteLine("Testing completed!");
-
+            
             // Pause the console so you can see the output
             Console.ReadLine();
         }
