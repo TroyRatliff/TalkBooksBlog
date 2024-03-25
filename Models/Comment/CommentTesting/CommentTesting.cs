@@ -16,7 +16,7 @@ namespace TalkBooksBlog.Models.Comment.CommentTesting.cs
             // Create an instance of CommentManager and pass in the ApplicationDbContext
             var commentManager = new CommentManager(dbContext);
 
-            // Create a new comment
+            // Create new comments
             var newComment = new Comment
             {
                 Content = "This is a test comment",
