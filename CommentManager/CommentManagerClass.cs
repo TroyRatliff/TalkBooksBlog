@@ -1,6 +1,9 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using TalkBooksBlog.Models.Comment;
+//SOLID principles 
+//Single Responsibility Principle - My CommentManager class has a single responsibility, which is to manage comments.
+//Dependency Inversion Principle - My CommentManager class depends on the abstraction provided by the ApplicationDbContext class through dependency injection.
 
 namespace TalkBooksBlog.Data
 {
